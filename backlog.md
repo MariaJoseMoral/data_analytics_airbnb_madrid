@@ -2,20 +2,30 @@
 Proyecto: Análisis de Datos de Airbnb en Madrid
 
 🟦 ÉPICA 1 – Preparación del entorno
-\nObjetivo:
+
+Objetivo:
+ 
   Disponer de toda la infraestructura técnica necesaria para comenzar el proyecto.
+
 Tareas:
+
   Crear repositorio en GitHub para el proyecto.
+  
   Definir estructura inicial del repositorio:
+  
   Carpetas: data/, notebooks/, scripts/, docs/, sql/, visualizations/
+  
   Crear archivo README.md con descripción del proyecto.
+  
   Configurar entorno virtual de Python.
+  
   Instalar librerías necesarias:
   - pandas
   - numpy
   - matplotlib
   - seaborn
   - sqlalchemy / sqlite / mysql
+ 
   Documentar requisitos en requirements.txt.
 
 🟦 ÉPICA 2 – Obtención de datos

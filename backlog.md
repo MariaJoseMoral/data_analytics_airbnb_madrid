@@ -2,7 +2,7 @@
 Proyecto: Análisis de Datos de Airbnb en Madrid
 
 🟦 ÉPICA 1 – Preparación del entorno
-Objetivo:
+\nObjetivo:
   Disponer de toda la infraestructura técnica necesaria para comenzar el proyecto.
 Tareas:
   Crear repositorio en GitHub para el proyecto.

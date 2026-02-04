@@ -1,34 +1,36 @@
 📌 BACKLOG DEL PROYECTO
-Proyecto: Análisis de Datos de Airbnb en una Ciudad
-A continuación tienes un backlog organizado en formato ágil, con épicas y tareas concretas.
+Proyecto: Análisis de Datos de Airbnb en Madrid
+
 🟦 ÉPICA 1 – Preparación del entorno
 Objetivo:
-Disponer de toda la infraestructura técnica necesaria para comenzar el proyecto.
+  Disponer de toda la infraestructura técnica necesaria para comenzar el proyecto.
 Tareas:
-Crear repositorio en GitHub para el proyecto.
-Definir estructura inicial del repositorio:
-Carpetas: data/, notebooks/, scripts/, docs/, sql/, visualizations/
-Crear archivo README.md con descripción del proyecto.
-Configurar entorno virtual de Python.
-Instalar librerías necesarias:
-pandas
-numpy
-matplotlib
-seaborn
-sqlalchemy / sqlite / mysql
-Documentar requisitos en requirements.txt.
+  Crear repositorio en GitHub para el proyecto.
+  Definir estructura inicial del repositorio:
+  Carpetas: data/, notebooks/, scripts/, docs/, sql/, visualizations/
+  Crear archivo README.md con descripción del proyecto.
+  Configurar entorno virtual de Python.
+  Instalar librerías necesarias:
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - sqlalchemy / sqlite / mysql
+  Documentar requisitos en requirements.txt.
+
 🟦 ÉPICA 2 – Obtención de datos
 Objetivo:
-Descargar y preparar los datos necesarios desde la fuente InsideAirbnb.
+  Descargar y preparar los datos necesarios desde la fuente InsideAirbnb.
 Tareas:
-Identificar ciudad asignada para el análisis.
-Descargar datasets correspondientes:
-listings.csv
-reviews.csv (si aplica)
-calendar.csv (si aplica)
-Almacenar datasets originales en carpeta data/raw.
-Crear script de carga inicial de datos en Python.
-Verificar correcta lectura de archivos en pandas.
+  Identificar ciudad asignada para el análisis.
+  Descargar datasets correspondientes:
+    listings.csv
+    reviews.csv (si aplica)
+    calendar.csv (si aplica)
+  Almacenar datasets originales en carpeta data/raw.
+  Crear script de carga inicial de datos en Python.
+  Verificar correcta lectura de archivos en pandas.
+
 🟦 ÉPICA 3 – Análisis Exploratorio de Datos (EDA)
 Objetivo:
 Comprender la estructura y calidad de los datos.
